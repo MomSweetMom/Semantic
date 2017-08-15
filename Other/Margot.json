@@ -1,0 +1,39 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "voc": "http://www.google.com/voc#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@id": "http://www.google.com/data#Margot",
+  "@type": [
+    "voc:Teacher",
+    "voc:Woman"
+  ],
+  "voc:age": 32,
+  "voc:hasChild": [
+    {
+      "@id": "http://www.google.com/data#Simon"
+    },
+    {
+      "@id": "http://www.google.com/data#Marie"
+    }
+  ],
+  "voc:hasColleague": [
+    {
+      "@id": "http://www.google.com/data#Pierre"
+    },
+    {
+      "@id": "http://www.google.com/data#Alice"
+    }
+  ],
+  "voc:hasMother": {
+    "@id": "http://www.google.com/data#Simone"
+  },
+  "voc:hasSpouse": {
+    "@id": "http://www.google.com/data#Authur"
+  },
+  "voc:name": "Margot",
+  "voc:shoe": 38,
+  "voc:trouser": 40
+}

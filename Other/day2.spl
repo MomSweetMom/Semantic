@@ -1,0 +1,7 @@
+/ * List all the city names which have the highest number of customers
+Nothing more than the result set than the City Name * /
+
+SELECT City_name FROM
+    (SELECT customers_no, City_name FROM ...
+        order by customers_no
+    ) () 

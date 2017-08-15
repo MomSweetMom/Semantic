@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf [
+   <!ENTITY humans   "http://www.inria.fr/2007/09/11/humans.rdfs">
+   <!ENTITY rdfs     "http://www.w3.org/2000/01/rdf-schema">
+    ]>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns="http://www.w3.org/2000/01/rdf-schema#"
+    xml:base="http://www.inria.fr/2007/09/11/humans.rdfs">
+
+<Class rdf:ID="Human">
+  <label xml:lang="en">human</label>
+  <label xml:lang="en">human</label>
+  <label xml:lang="en">human being</label>
+  <comment xml:lang="en">a member of the human species</comment>
+  <label xml:lang="fr">humanne</label>
+  <label xml:lang="fr">être humain</label>
+  <label xml:lang="fr">humain</label>
+  <label xml:lang="fr">homme</label>
+  <comment xml:lang="fr">un membre de l'espèce humaine.</comment>
+</Class>
+
+<Class rdf:ID="Man">
+  <subClassOf rdf:resource="#Human"/>
+  <label xml:lang="en">man</label>
+  <comment xml:lang="en">man is a man</comment>
+</Class>
+
+<Class rdf:ID="Woman">
+  <subClassOf rdf:resource="#Human"/>
+  <label xml:lang="en">woman</label>
+  <comment xml:lang="en">woman is a woman</comment>
+</Class>
+
+<Class rdf:ID="Teacher">
+  <subClassOf rdf:resource="#Human"/>
+  <label xml:lang="en">teacher</label>
+  <comment xml:lang="en">someone who teach</comment>
+</Class>
+
+<rdf:Property rdf:ID="hasSpouse">
+  <domain rdf:resource="#human"/>
+  <range rdf:resource="#human"/>
+  <label xml:lang="en">has a spouse</label>
+  <comment xml:lang="en">relation between spouses.</comment>
+</rdf:Property>
+
+<rdf:Property rdf:ID="hasChild">
+  <domain rdf:resource="#human"/>
+  <range rdf:resource="#human"/>
+  <label xml:lang="en">has a child</label>
+  <comment xml:lang="en">relation in family, having a child.</comment>
+</rdf:Property>
+
+<rdf:Property rdf:ID="hasMother">
+  <domain rdf:resource="#human"/>
+  <range rdf:resource="#human"/>
+  <label xml:lang="en">has a mother</label>
+  <comment xml:lang="en">relation in family, having a mother.</comment>
+</rdf:Property>
+
+<rdf:Property rdf:ID="hasColleague">
+  <domain rdf:resource="#human"/>
+  <range rdf:resource="#human"/>
+  <label xml:lang="en">has a colleague</label>
+  <comment xml:lang="en">relation between colleagues</comment>
+</rdf:Property>
+
+</rdf:RDF>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rdf:RDF [   <!ENTITY vocabulary "http://www.google.com/voc">
+<!ENTITY xsd "http://www.w3.org/2001/XMLSchema#"> ]>
+
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:voc="&vocabulary;#" xml:base="http://www.google.com/data">
+
+<rdf:Description rdf:about="#Margot">
+    <voc:name>Margot</voc:name>
+    <rdf:type rdf:resource="&vocabulary;#Woman"/>
+    <voc:age rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</voc:age>
+    <voc:shoe rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">38</voc:shoe>
+    <voc:trouser rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</voc:trouser>
+    <voc:hasSpouse rdf:resource="#Authur"/>
+    <voc:hasChild rdf:resource="#Simon"/>
+    <voc:hasChild rdf:resource="#Marie"/>
+    <rdf:type rdf:resource="&vocabulary;#Teacher"/>
+    <voc:hasColleague rdf:resource="#Alice"/>
+    <voc:hasColleague rdf:resource="#Pierre"/>
+    <voc:hasMother rdf:resource="#Simone"/>
+</rdf:Description>
+</rdf:RDF>

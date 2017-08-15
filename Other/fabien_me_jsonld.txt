@@ -1,0 +1,80 @@
+{
+  "@context": {
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "http://ns.inria.fr/fabien.gandon",
+      "@type": "foaf:PersonalProfileDocument",
+      "foaf:maker": {
+        "@id": "http://ns.inria.fr/fabien.gandon#me"
+      },
+      "foaf:primaryTopic": {
+        "@id": "http://ns.inria.fr/fabien.gandon#me"
+      }
+    },
+    {
+      "@id": "_:N798de8ecbf3b4ca4aeec8e98f51c826d",
+      "@type": "foaf:Person",
+      "foaf:mbox": {
+        "@id": "mailto:olivier.corby@inria.fr"
+      },
+      "foaf:name": "Olivier Corby",
+      "rdfs:seeAlso": {
+        "@id": "http://www-sop.inria.fr/members/Olivier.Corby/"
+      }
+    },
+    {
+      "@id": "http://ns.inria.fr/fabien.gandon#me",
+      "@type": "foaf:Person",
+      "foaf:depiction": {
+        "@id": "http://www-sop.inria.fr/members/Fabien.Gandon/common/FabienGandonBackground.jpg"
+      },
+      "foaf:family_name": "Gandon",
+      "foaf:givenname": "Fabien",
+      "foaf:homepage": {
+        "@id": "http://fabien.info"
+      },
+      "foaf:knows": [
+        {
+          "@id": "_:N62cde8e87576497a933ebbc6bdcd96bb"
+        },
+        {
+          "@id": "_:N798de8ecbf3b4ca4aeec8e98f51c826d"
+        }
+      ],
+      "foaf:mbox": {
+        "@id": "mailto:fabien.gandon@inria.fr"
+      },
+      "foaf:name": "Fabien Gandon",
+      "foaf:nick": "Bafien",
+      "foaf:phone": {
+        "@id": "http://ns.inria.fr/tel:0492387788"
+      },
+      "foaf:schoolHomepage": {
+        "@id": "http://www.insa-rouen.fr"
+      },
+      "foaf:title": "Dr",
+      "foaf:workInfoHomepage": {
+        "@id": "http://fabien.info"
+      },
+      "foaf:workplaceHomepage": {
+        "@id": "http://www.inria.fr/"
+      }
+    },
+    {
+      "@id": "_:N62cde8e87576497a933ebbc6bdcd96bb",
+      "@type": "foaf:Person",
+      "foaf:mbox": {
+        "@id": "mailto:faron@polytech.unice.fr"
+      },
+      "foaf:name": "Catherine Faron-Zucker",
+      "rdfs:seeAlso": {
+        "@id": "http://www.i3s.unice.fr/~faron/"
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Trung Hoang</foaf:name>
+<foaf:title>Mr.</foaf:title>
+<foaf:givenname>Trung</foaf:givenname>
+<foaf:family_name>Hoang</foaf:family_name>
+<foaf:nick>Mr. Tea</foaf:nick>
+<foaf:mbox_sha1sum>c827f2f74a177ea76daea02f4c704ed0001310dc</foaf:mbox_sha1sum>
+<foaf:homepage rdf:resource="datacorner.eu"/>
+<foaf:phone rdf:resource="tel:9704435017"/>
+<foaf:workplaceHomepage rdf:resource="dsti.institute"/>
+<foaf:schoolHomepage rdf:resource="Data ScienceTech Institute"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Fabien</foaf:name>
+<foaf:mbox_sha1sum>eac5693c3ee10c8e32c3b60414dd1fc7eb24f2e0</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="http://fabien.info"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>ilhem</foaf:name>
+<foaf:mbox_sha1sum>d8f677931175e68b3fac3a45094726c88f472e42</foaf:mbox_sha1sum>
+<rdfs:seeAlso rdf:resource="ilhem@gmail.com"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>assan</foaf:name>
+<foaf:mbox_sha1sum>1d9460e8aaa1b5bb10fba5b8e2d1567bcbe9f710</foaf:mbox_sha1sum></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

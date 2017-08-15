@@ -1,0 +1,12 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+<https://www.amazon.com/Mis%C3%A9rables-English-language-Victor-Hugo-ebook/dp/B004GHNIRK>
+    dc:creator "Victor Hugo";
+    dc:title "Les Misérables (English language)" ;
+    dc:language "en" ;
+    dc:subject "RDF, RDFS, SPARQL, OWL, SKOS" ;
+    dc:date "2016-03-24" ;
+    dc:publisher "Amazon.com" ;
+    dc:format "text/html" ;
+    dc:type dcterms:Text .

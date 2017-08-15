@@ -1,0 +1,31 @@
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ns.inria.fr/fabien.gandon> a foaf:PersonalProfileDocument ;
+    foaf:maker <http://ns.inria.fr/fabien.gandon#me> ;
+    foaf:primaryTopic <http://ns.inria.fr/fabien.gandon#me> .
+
+<http://ns.inria.fr/fabien.gandon#me> a foaf:Person ;
+    foaf:depiction <http://www-sop.inria.fr/members/Fabien.Gandon/common/FabienGandonBackground.jpg> ;
+    foaf:family_name "Gandon" ;
+    foaf:givenname "Fabien" ;
+    foaf:homepage <http://fabien.info> ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <http://www.i3s.unice.fr/~faron/> ;
+            foaf:mbox <mailto:faron@polytech.unice.fr> ;
+            foaf:name "Catherine Faron-Zucker" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <http://www-sop.inria.fr/members/Olivier.Corby/> ;
+            foaf:mbox <mailto:olivier.corby@inria.fr> ;
+            foaf:name "Olivier Corby" ] ;
+    foaf:mbox <mailto:fabien.gandon@inria.fr> ;
+    foaf:name "Fabien Gandon" ;
+    foaf:nick "Bafien" ;
+    foaf:phone <http://ns.inria.fr/tel:0492387788> ;
+    foaf:schoolHomepage <http://www.insa-rouen.fr> ;
+    foaf:title "Dr" ;
+    foaf:workInfoHomepage <http://fabien.info> ;
+    foaf:workplaceHomepage <http://www.inria.fr/> .

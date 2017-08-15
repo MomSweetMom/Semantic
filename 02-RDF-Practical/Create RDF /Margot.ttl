@@ -1,0 +1,18 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix voc: <http://www.google.com/voc#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.google.com/data#Margot> a voc:Teacher,
+        voc:Woman ;
+    voc:age 32 ;
+    voc:hasChild <http://www.google.com/data#Marie>,
+        <http://www.google.com/data#Simon> ;
+    voc:hasColleague <http://www.google.com/data#Alice>,
+        <http://www.google.com/data#Pierre> ;
+    voc:hasMother <http://www.google.com/data#Simone> ;
+    voc:hasSpouse <http://www.google.com/data#Authur> ;
+    voc:name "Margot" ;
+    voc:shoe 38 ;
+    voc:trouser 40 .

@@ -1,0 +1,35 @@
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<> a foaf:PersonalProfileDocument ;
+    admin:errorReportsTo <mailto:leigh@ldodds.com> ;
+    admin:generatorAgent <http://www.ldodds.com/foaf/foaf-a-matic> ;
+    foaf:maker <#me> ;
+    foaf:primaryTopic <#me> .
+
+<#me> a foaf:Person ;
+    foaf:family_name "Hoang" ;
+    foaf:givenname "Trung" ;
+    foaf:homepage <datacorner.eu> ;
+    foaf:knows [ a foaf:Person ;
+            rdfs:seeAlso <http://fabien.info> ;
+            foaf:mbox_sha1sum "eac5693c3ee10c8e32c3b60414dd1fc7eb24f2e0" ;
+            foaf:name "Fabien" ],
+        [ a foaf:Person ;
+            rdfs:seeAlso <ilhem@gmail.com> ;
+            foaf:mbox_sha1sum "d8f677931175e68b3fac3a45094726c88f472e42" ;
+            foaf:name "ilhem" ],
+        [ a foaf:Person ;
+            foaf:mbox_sha1sum "1d9460e8aaa1b5bb10fba5b8e2d1567bcbe9f710" ;
+            foaf:name "assan" ] ;
+    foaf:mbox_sha1sum "c827f2f74a177ea76daea02f4c704ed0001310dc" ;
+    foaf:name "Trung Hoang" ;
+    foaf:nick "Mr. Tea" ;
+    foaf:phone <tel:9704435017> ;
+    foaf:schoolHomepage <DataScienceTechInstitute> ;
+    foaf:title "Mr." ;
+    foaf:workplaceHomepage <dsti.institute> .
