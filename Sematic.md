@@ -370,6 +370,9 @@ D rdfs:subClassOf B, C
 P2, P3, P4 rdfs:subPropertyOf P1
 P4 rdfs:subPropertyOf P2, P3
 
+### Q4.5
+B rdf:type P
+2
 - - - -
 
 ### Q5.1
