@@ -1,9 +1,10 @@
 ### Q1. Name space
-``` xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-    xmlns:xsd ="&xsd;"
-    xmlns     ="&humans;#"
-    xml:base  ="&humans;-instances"
+```
+xmlns:rdf ="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+xmlns:xsd ="&xsd;"
+xmlns     ="&humans;#"
+xml:base  ="&humans;-instances"
 ```
 
 ### Q2, Q3
