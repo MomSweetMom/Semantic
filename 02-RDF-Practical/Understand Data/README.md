@@ -12,7 +12,7 @@ Instance is specifed through namespace, which is.
 • A collection of names identified by a URI
 • Names belonging to a same namespace start with the same URI.
 
-Namespace associated with tag through prefix which declare the namespace
+Namespace associated with tag through prefix which declares the namespace
 
 ### Q4
 xmlns="&humans;#" is the way a name space is defined. In this case is a collection of humans
