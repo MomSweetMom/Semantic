@@ -347,9 +347,11 @@ where {
 }
 
 ### Q3.15
+```
 DELETE {?x foam:name ?n}
 INSERT {?x rdfs:label ?n}
 WHERE {?x foaf:name ?n}
+```
 
 ### Q3.16
 Replace the age of type “string” with “integer”
